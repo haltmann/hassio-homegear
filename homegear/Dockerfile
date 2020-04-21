@@ -31,7 +31,7 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="https://github.com/tringler" \
+    maintainer="https://github.com/haltmann" \
     org.label-schema.description="Ubuntu Base Add-On" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Ubuntu Base" \
