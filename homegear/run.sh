@@ -9,6 +9,8 @@ _term() {
 
 trap _term SIGTERM
 
+mkdir /config/homegear
+mkdir /config/homegear/homegear
 cp -R /etc/homegear/* /config/homegear/config
 mv /main.conf /config/homegear/config/main.conf
 
